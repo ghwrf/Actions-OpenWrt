@@ -23,14 +23,14 @@ on:
   # branches: 
   #  - master
         
-  schedule:
-   - cron: 07 3 * * 4
+  #schedule:
+  # - cron: 07 3 * * 4
         
   #watch:
   # types: [started]
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/Newifi_D2.config
   DIY_P1_SH: sh/lede_diy-part1.sh
